@@ -1,0 +1,3 @@
+# React Native Dimensions API Inconsistent on Rotation
+
+This repository demonstrates a common bug in React Native applications where the `Dimensions` API fails to accurately reflect screen dimensions after rotation. The main component doesn't update after screen orientation changes. This issue leads to layout inconsistencies. The solution involves using the `Dimensions` API's `addEventListener` to listen for changes in screen dimensions and trigger re-renders when needed.
